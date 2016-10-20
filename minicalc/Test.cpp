@@ -87,7 +87,7 @@ double ab_bayes(Treatment &a, Treatment &b) {
 	return total;
 }
 
-//probability that c beats a and b
+//probability that c beats a and b (slow)
 double abc_bayes(Treatment &a, Treatment &b, Treatment &c) {
 	double total = 0.0;
 	double alpha_a = a.getAlpha(), beta_a = a.getBeta();

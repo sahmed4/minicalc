@@ -8,7 +8,7 @@
 class Test {
 public:
 	Test();
-	Test(const std::string &s); 
+	explicit Test(const std::string &s);
 	Test(Treatment& t);
 	Test(const std::string& s, Treatment& t);
 	Test(const std::string& s, std::vector<Treatment>& v);

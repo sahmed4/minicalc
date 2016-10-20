@@ -6,7 +6,7 @@
 class Treatment {
 public:
 	Treatment();
-	Treatment(const std::string &s);
+	explicit Treatment(const std::string &s);
 	Treatment(const std::string &s, double a, double sample_size);
 
 	~Treatment();
